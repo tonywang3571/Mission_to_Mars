@@ -13,7 +13,7 @@
         <!-- Add jumbotron to Header -->
         <div class="jumbotron text-center">
             <h1>Mission to Mars</h1>
-            <-- Add a button to activate scraping script -->
+            <!-- Add a button to activate scraping script -->
             <p><a class="btn btn-primary btn-lg" href="/scrape"
                         role="button">Scrape New Data</a></p>
         </div>
@@ -46,6 +46,27 @@
                 </div>
             </div>
         </div>
+        
+        <!-- SOMETHING DOES NOT WORK HERE...NOT SURE WHAT YET-->
+        <!-- Section for Mars Hemispheres -->
+        <div class="row" id="mars-hemispheres">
+            <div class="page-header">
+                <h2 class="text-center">Mars Hemispheres</h2>
+            </div>
+
+            {% for i in mars.hemispheres %}
+            <div class="col-md-6">
+                <div class="thumbnail">
+                    <img src="{{i.img_url}}" class="img-responsive" alt="responsive image"/>
+                    <div class="caption">
+                        <h3>{{i.title}}</h3>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+
     </div>
 </body>
 </html>
