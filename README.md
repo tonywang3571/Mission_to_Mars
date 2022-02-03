@@ -12,7 +12,7 @@ The purpose of this project is to create a webpage that will scrape current news
 ## Analysis and Results  
 
 **Step-by-Step:**  
-For this project, we used Jupyter Notebook to create and test our functions for scraping data from different websites. Within our code, we imported splinter and beautifulsoup to assist with scraping and parsing the html code from websites where we wanted to gather our information and images. After we have scraped data, we stored the data into mongodb. That way we can pull data from database after we hit our scrape button in our webpage. Next, we created a webpage with html code to view the data that we scraped, while adding additional visualizations along the way to make our webpage look visually appealing.
+For this project, we used Jupyter Notebook and VS code to create and test our functions for scraping data from different websites. Within our code, we imported splinter and beautifulsoup to assist with scraping and parsing the html code from websites where we wanted to gather our information and images. After we have scraped data, we stored the data into mongodb, a database. That way we can access the data after someone clicks our scrape button on our webpage. Next, we created a webpage with html code to view and display the data that we scraped, while adding additional visualizations along the way to make our webpage look visually appealing.
 
 **Results:**  
 <img src="Resources/webpage1.PNG">  
@@ -21,7 +21,7 @@ For this project, we used Jupyter Notebook to create and test our functions for 
 ## Challenge Summary  
 
 **Summary**  
-The purpose of this project is to create a webpage that will scrape data and images from specific websites to collect, store, and display all of it on a single webpage with a click of a button.  
+The purpose of this project is to create a webpage that will scrape data and images from specific websites to collect, store, and display all of the information on a single webpage with a click of a button.  
  
 ### Codes Used  
 (Please look at specific files for codes used)  
