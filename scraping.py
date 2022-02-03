@@ -117,7 +117,7 @@ def mars_hemispheres(browser):
         # Add img_url and title to dictionary and then to list
         hemispheres = {}
         browser.find_by_css('a.product-item h3')[i].click()
-        img_url = browser.find_link_by_text('Sample').first['href']
+        img_url = browser.links.find_by_text('Sample').first['href']
         title = browser.find_by_css('h2.title').text
         hemispheres["img_url"] = (img_url)
         hemispheres["title"] = title    

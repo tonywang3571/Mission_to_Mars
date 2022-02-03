@@ -7,11 +7,12 @@
     <title>Mission to Mars</title>
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="static/css/style.css"/>
 </head>
 <body>
     <div class="container">
         <!-- Add jumbotron to Header -->
-        <div class="jumbotron text-center">
+        <div class="jumbotron container-fluid">
             <h1>Mission to Mars</h1>
             <!-- Add a button to activate scraping script -->
             <p><a class="btn btn-primary btn-lg" href="/scrape"
@@ -55,9 +56,9 @@
             </div>
 
             {% for i in mars.hemispheres %}
-            <div class="col-md-6">
+            <div class="col-sm-3">
                 <div class="thumbnail">
-                    <img src="{{i.img_url}}" class="img-responsive" alt="responsive image"/>
+                    <img src="{{i.img_url}}" class="img-circle img-responsive" alt="responsive image"/>
                     <div class="caption">
                         <h3>{{i.title}}</h3>
                     </div>
@@ -65,7 +66,6 @@
             </div>
             {% endfor %}
         </div>
-
 
     </div>
 </body>
