@@ -119,7 +119,7 @@ def mars_hemispheres(browser):
         browser.find_by_css('a.product-item h3')[i].click()
         img_url = browser.links.find_by_text('Sample').first['href']
         title = browser.find_by_css('h2.title').text
-        hemispheres["img_url"] = (img_url)
+        hemispheres["img_url"] = img_url
         hemispheres["title"] = title    
         hemispheres_image_urls.append(hemispheres)
         browser.back()

@@ -11,7 +11,7 @@ The purpose of this project is to create a webpage that will scrape current news
 
 ## Analysis and Results  
 
-**Step-by-Step:**  
+**Analysis:**  
 For this project, we used Jupyter Notebook and VS code to create and test our functions for scraping data from different websites. Within our code, we imported splinter and beautifulsoup to assist with scraping and parsing the html code from websites where we wanted to gather our information and images. After we have scraped data, we stored the data into mongodb, a database. That way we can access the data after someone clicks our scrape button on our webpage. Next, we created a webpage with html code to view and display the data that we scraped, while adding additional visualizations along the way to make our webpage look visually appealing.
 
 **Results:**  
