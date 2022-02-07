@@ -7,7 +7,7 @@ The purpose of this project is to create a webpage that will scrape current news
 
 ## Resources:  
 - Data Source: [NASA news](http://redplanetscience.com), [Featured Image](http://redplanetscience.com), [Galaxyfacts](https://galaxyfacts-mars.com), [Mars Hemispheres](https://marshemispheres.com/)  
-- Software: Python 3.9.7, Jupyter Notebook 6.4.5, Flask 1.1.2, VS code 1.63.2 Mongodb 5.0.6  
+- Software: Python 3.9.7, Jupyter Notebook 6.4.5, Flask 1.1.2, VS code 1.63.2, Mongodb 5.0.6  
 
 ## Analysis and Results  
 
