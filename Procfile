@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn mars_app.app:app
